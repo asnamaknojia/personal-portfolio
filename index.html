@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Asna Maknojia - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Asna Maknojia
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          asnamaknojia23@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +920987654321
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#about-me">Skills</a>
+          <a class="topmenu" href="#about-me">Project</a>
+          <a class="topmenu" href="#about-me">Recommendation</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      
+      <div>
+        <img src=bullet.png"profile_image"/>
+        
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Asna Maknojia <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+          </h1>
+          <p>
+            I am Asna Maknojia, an enthusiastic and driven undergraduate student on the path to achieving a Bachelor's degree in Computer Science. My relentless passion for technology and software development fuels my desire to explore the world of full-stack development. I am actively in pursuit of an internship opportunity that will enable me to expand my skills and deepen my knowledge in this field. With my academic foundation and unwavering dedication, I am a promising candidate for organizations seeking to foster emerging talent in the realm of computer science and software engineering.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/node.png"/>
+          <h6>node js</h6>
+          <p>1 year experience</p>
+        </div>  
+ 
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>1 year experience</p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>html</h6>
+          <p>1 year experience</p>
+        </div>  
+        <div class="skill">
+          <img src="html_finalprojimages/react.png"/>
+          <h6>react js</h6>
+          <p>1 year experience</p>
+        </div>  
+
+
+        <div class="skill">
+          <img src="html_finalprojimages/java.png"/>
+          <h6>java</h6>
+          <p>1 year experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>task tracker management system</h3>
+            <ul>
+              <li>Developed a task tracker management system which helps organize and monitor tasks, ensuring efficient task assignment, progress tracking, and completion within a project or organization.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>library catalog</h3>
+            <ul>
+              <li>Developed a library catalog project which aims to create a user-friendly and comprehensive digital system for organizing, searching, and managing library resources, improving accessibility and efficiency for patrons and staff.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Weather App</h3>
+            <ul>
+              <li>developed a weather app which provides real-time meteorological information, forecasts, and weather-related data to users for a specific location or region.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          "Asna is an exceptional student with a remarkable dedication to her studies and a strong passion for computer science. Her commitment to learning and her proactive approach to problem-solving set her apart."
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          "I wholeheartedly recommend Asna for an internship opportunity. Her passion for computer science, problem-solving abilities, and adaptability make her a strong candidate for any role in the software development industry.
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          "Asna's enthusiasm for full-stack development is evident in her continuous pursuit of knowledge and skills in this domain. Her proactive nature and willingness to take on new challenges make her an excellent candidate for organizations seeking emerging talent."
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>thanks for recommendations</h3>
+      <button onclick="showPopup(true)">Ok</button>
+    </div>
+  </body>
+</html>
